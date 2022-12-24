@@ -141,9 +141,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="encryption\xor.h" />
-    <ClInclude Include="protect\antidump.h" />
+    <ClInclude Include="misc\process.hpp" />
+    <ClInclude Include="protect\anti_dump.h" />
     <ClInclude Include="misc\lazy.h" />
+    <ClInclude Include="protect\anti_attach.h" />
     <ClInclude Include="protect\anti_debugger.h" />
+    <ClInclude Include="protect\killprocess.h" />
     <ClInclude Include="protect\protectmain.h" />
   </ItemGroup>
   <ItemGroup>

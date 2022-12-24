@@ -3,6 +3,6 @@
 
 int main() {
 	mainprotect();
-	std::cout << _xor_("Hello :)\n").c_str();
+	std::cout << _xor_("hello world \n").c_str();
 	std::cin.get();
 }
